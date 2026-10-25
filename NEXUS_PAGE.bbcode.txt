@@ -6,6 +6,11 @@ Run your own legal-front dispensaries, hire budtenders and managers, and automat
 [b]No MeshVault needed[/b]: OTCV spawns its props itself. If you only installed MeshVault for OTCV, you can remove it.
 
 [line]
+[size=4][b]1.0.1[/b][/size]
+[list]
+[*]Fixed: the held item's name could sit on top of the HUD bars after going back to the menu and loading a save
+[/list]
+
 [size=4][b]What's new in OTCV[/b][/size]
 [list]
 [*]Updated for Schedule I 0.4.7

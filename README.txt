@@ -1,4 +1,4 @@
-OTCV 1.0.0 - Over The Counter, Vanilla port for Schedule I 0.4.7
+OTCV 1.0.1 - Over The Counter, Vanilla port for Schedule I 0.4.7
 ==================================================================
 Original mod: OverTheCounter (OTC) by hdlmrell
 Port and new features: Malfunction Labs
@@ -48,6 +48,12 @@ Most likely to break on Mono: custom NPC setup (walk-ins, drifters, managers,
 budtenders, Bella: names, mugshots, texting), manager inventories, and
 returning items from a cancelled handover.
 Please report Mono bugs (with your MelonLoader\Latest.log) on the Nexus page.
+
+
+1.0.1
+-----
+- Fixed: the held item's name could sit on top of the HUD bars after going back
+  to the menu and loading a save.
 
 
 WHAT'S NEW IN OTCV (vs. OTC 2.0.10)
