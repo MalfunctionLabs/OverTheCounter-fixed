@@ -1,0 +1,69 @@
+[size=5][b]OTCV - Over The Counter (Vanilla 0.4.7 port)[/b][/size]
+
+[b]OTCV[/b] is a port of [b]OverTheCounter[/b] by [b]hdlmrell[/b] to Schedule I [b]0.4.7[/b], with new features and fixes from [b]Malfunction Labs[/b].
+Run your own legal-front dispensaries, hire budtenders and managers, and automate your whole supply chain.
+
+[b]No MeshVault needed[/b]: OTCV spawns its props itself. If you only installed MeshVault for OTCV, you can remove it.
+
+[line]
+[size=4][b]What's new in OTCV[/b][/size]
+[list]
+[*]Updated for Schedule I 0.4.7
+[*][b]Counter:[/b] clicking a product on the counter hands it straight to the customer
+[*][b]Vic[/b] sends a daily laundering text with its own sound at 9:00 AM (configurable)
+[*][b]Trio products:[/b] mix [i]Viagor -> Cuke -> Mega Bean[/i] as the last three steps and the product glows blood red, is worth 15% more, and gets red icons in every packaging
+[*][b]Products app:[/b] a "B" badge marks products in your backpack
+[*]Fixed a crash when opening Bella's handover screen
+[*]Fixed a manager's clipboard panel staying open on other workers
+[/list]
+
+[size=4][b]Everything from OTC is kept[/b][/size]
+[list]
+[*]Dispensaries: Westville Shack, Big Dispensary, Supplier Warehouse
+[*]Walk-in customers, region-locked traffic, signage, weather protection, guided quests
+[*]Budtenders with autonomous checkout, per-counter staffing and daily wages
+[*]GreenTab POS app: dashboard, auto-pricing, sales log, employees tab
+[*]Managers with supply and distribution routes, upgrades and the "Executive Privilege" quest
+[*]Smart Fill for storage and handovers, Contract Aggregator, recipe pin overlay
+[*]Desperation system, drifter encounters and more
+[/list]
+
+[line]
+[size=4][b]Requirements[/b][/size]
+[list]
+[*]Schedule I [b]0.4.7[/b]
+[*][b]MelonLoader 0.7.3+[/b]
+[*][b]S1API 3.2.1+[/b] with the S1APILoader plugin - [url=https://thunderstore.io/c/schedule-i/p/ifBars/S1API_Forked/]Thunderstore[/url]
+[*][b]S1MAPI 2.0.1+[/b] - [url=https://www.nexusmods.com/schedule1/mods/1447]Nexus[/url] / [url=https://thunderstore.io/c/schedule-i/p/ifBars/S1MAPI/]Thunderstore[/url]
+[*]Optional: [b]SteamNetworkLib 1.5.0+[/b] for multiplayer - [url=https://www.nexusmods.com/schedule1/mods/1396?tab=files]Nexus[/url]
+[/list]
+OTCV shows a popup on the main menu if anything is missing.
+
+[size=4][b]Installation[/b][/size]
+[list=1]
+[*]Install MelonLoader, start the game once, then close it.
+[*]Install S1API and S1MAPI (and SteamNetworkLib for multiplayer).
+[*]Download the file for your branch: [b]IL2CPP[/b] (normal Steam version, most players) or [b]Mono[/b] (alternate beta branch).
+[*]Copy the [b]Mods[/b] folder from the zip into your Schedule I folder, merging when asked.
+[*]If you had the original OTC, this replaces it. Make sure only one OverTheCounter dll is in Mods.
+[/list]
+[b]Back up your saves first:[/b] %USERPROFILE%\AppData\LocalLow\TVGS\Schedule I\Saves
+
+[size=4][color=#ff9900][b]Mono build[/b][/color][/size]
+The Mono build compiles for 0.4.7 but [b]has not been playtested[/b]. IL2CPP-only (not in the Mono build): the backpack, Trio products and the Products app "B" badge.
+Most likely to break on Mono: custom NPC setup (walk-ins, drifters, managers, budtenders, Bella: names, mugshots, texting), manager inventories, and returning items from a cancelled handover.
+Please report Mono bugs in the Bugs tab with your [i]MelonLoader\Latest.log[/i] and we'll fix them.
+
+[line]
+[size=4][b]Bugs and feedback[/b][/size]
+Please report problems with OTCV [b]here[/b] (Bugs tab or Posts), not to hdlmrell. Include your MelonLoader\Latest.log.
+
+[size=4][b]Credits[/b][/size]
+[list]
+[*][b]hdlmrell[/b] - OverTheCounter and MeshVault
+[*][b]ifBars[/b] - S1API (fork), S1MAPI, SteamNetworkLib
+[*][b]Malfunction Labs[/b] - 0.4.7 port and OTCV additions
+[/list]
+
+[size=4][b]License[/b][/size]
+OTC and MeshVault are licensed under [url=https://creativecommons.org/licenses/by-nc-sa/4.0/]CC BY-NC-SA 4.0[/url]. OTCV is an adaptation and is shared under the same license. Non-commercial: this mod does not earn Donation Points.
